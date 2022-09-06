@@ -1,3 +1,24 @@
 # Dynamic-Web-Scraping
 ### This Project is aim to scrape income statement of the stock in SET
 ### This Code is applied from "Intermediate Data Engineering by GBDi Training Code"
+
+# Requirement
+- Chromedriver : https://chromedriver.chromium.org/
+- BeautifulSoup
+- pandas
+
+# Steps to run
+1. Download `Chromedriver` locate at the same folder with this code
+2. Input stocks name
+3. Type `f` when finish
+4. Type `E` if want to export to excel or Type `S` if want to show result
+
+# Workflow
+1. import `webdriver`, `BeautifulSoup` and `pandas`
+2. Use for loops to let chromdriver open stock's fact sheet on browser and scrape all `HTML` one-by-one
+3. Find income statement and extract header and body of the table
+4. Clean data by Changing `-` into `0` and change datatype to float to calculate last record growth
+5. Create new column name `last record growth` (growth of the last quarter or last half-yearly that show in the statement)
+6. Export to excel or show on screen
+---
+                ## Thank you (づ￣ 3￣)づ
