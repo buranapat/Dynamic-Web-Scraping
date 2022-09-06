@@ -21,4 +21,4 @@
 5. Create new column name `last record growth` (growth of the last quarter or last half-yearly that show in the statement)
 6. Export to excel or show on screen
 ---
-                ## Thank you (づ￣ 3￣)づ
+<h2><div align="center">Thank you (づ￣ 3￣)づ</div></h2>
