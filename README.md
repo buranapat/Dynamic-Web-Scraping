@@ -17,7 +17,7 @@
 1. import `webdriver`, `BeautifulSoup` and `pandas`
 2. Use for loops to let chromdriver open stock's fact sheet on browser and scrape all `HTML` one-by-one
 3. Find income statement and extract header and body of the table
-4. Clean data by Changing `-` into `0` and change datatype to float to calculate last record growth
+4. Clean data by changing `-` into `0` and changing datatype from str to float to calculate last record growth
 5. Create new column named `last record growth` (growth of the last quarter or last half-yearly that show in the statement)
 6. Export to excel or show on screen
 ---
