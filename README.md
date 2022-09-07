@@ -1,6 +1,6 @@
 # Dynamic-Web-Scraping
-### This Project is aim to scrape income statement of the stock in SET
-### This Code is applied from "Intermediate Data Engineering by GBDi Training Code"
+### This Project is aim to scrape income statement of the stock in SET.
+### This Code is applied from "Intermediate Data Engineering by GBDi Training Code".
 
 # Requirement
 - Chromedriver : https://chromedriver.chromium.org/
@@ -8,10 +8,10 @@
 - pandas
 
 # Steps to run
-1. Download `Chromedriver` locate at the same folder with this code
-2. Input stocks name
-3. Type `f` when finish
-4. Type `E` if want to export to excel or Type `S` if want to show result
+1. Download `Chromedriver` locate at the same folder with this code.
+2. Input stocks name.
+3. Type `f` when finish.
+4. Type `E` if want to export to excel or Type `S` if want to show result.
 
 # Workflow
 1. import `webdriver`, `BeautifulSoup` and `pandas`
